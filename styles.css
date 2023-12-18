@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Afacad', sans-serif;
+    text-align: center;
+    color: #2E5266;
+    margin: 50px 250px;
+    background: #D3D0CB;
+}
+
+h1 {
+    font-family: 'Rubik Scribble', sans-serif;
+    font-size: 55px;
+}
+h2 {
+    margin-top: -25px;
+    font-size: 30px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container div {
+    width: 450px;
+    background: #9FB1BC;
+    padding: 30px 25px;
+    margin: 25px 0;
+}
+    .container img {
+        width: 100%;
+    }
+    .container h3 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #2E5266;
+        margin: 10px 0 20px;
+    }
+    .container button {
+        cursor: pointer;
+        width: 100%;
+        background: #2E5266;
+        border: none;
+        padding: 10px 0;
+
+        font-family: inherit;
+        font-size: 25px;
+        color: #9FB1BC;
+    }
