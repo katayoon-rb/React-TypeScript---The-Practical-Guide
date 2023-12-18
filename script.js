@@ -9,7 +9,7 @@ for (let i = 0; i < projects.length; i++) {
         <div>
             <img src=${'./' + projects[i] + '/screen.jpg'} />
             <h3>${projects[i].split('-')[1]} Project</h3>
-            <a href=${'./' + projects[i] + '/public/index.html'}>
+            <a href=${'./' + projects[i] + '/index.html'}>
                 <button>View Project</button>
             </a>
         </div>
