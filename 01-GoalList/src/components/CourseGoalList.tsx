@@ -11,12 +11,19 @@ type CourseGoalListProps = {
 
 export default function CourseGoalList({goals, onDeleteGoal}: CourseGoalListProps) {
     if (goals.length === 0) {
-        return <InfoBox mode="hint">You have no goals yet</InfoBox>
+        return (
+            <InfoBox mode="hint">
+                You have no goals yet
+            </InfoBox>
+        )
     }
 
     let warningBox: ReactNode 
     if (goals.length >= 4) {
-        warningBox = <InfoBox mode="warning">Don't put so much pressure on yourself.</InfoBox>
+        warningBox =
+            <InfoBox mode="warning" sev="high">
+                Don't put so much pressure on yourself.
+            </InfoBox>
     }
 
     return (
