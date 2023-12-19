@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 import Header from "./components/Header.tsx"
-import goalsImg from "src/assets/goals.jpg"
 import NewGoal from "./components/NewGoal.tsx"
 import CourseGoalList from "./components/CourseGoalList.tsx"
 
@@ -32,7 +31,7 @@ export default function App() {
 
   return (
     <main>
-      <Header image={{ src: goalsImg, alt:"List of goals" }}>
+      <Header>
         <h1>Your Course Goals</h1>
       </Header>
 
