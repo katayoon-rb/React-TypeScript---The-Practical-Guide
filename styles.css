@@ -43,7 +43,7 @@ h2 {
     }
     .buttons button {
         cursor: pointer;
-        width: 47%;
+        width: 100%;
         background: #2E5266;
         
         border: none;
