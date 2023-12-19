@@ -1,6 +1,7 @@
 const container = document.querySelector('.container')
 const projects = [
     '01-GoalList',
+    '02-AdvComponents',
 ]
 
 
