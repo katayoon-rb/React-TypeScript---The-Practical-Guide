@@ -4,6 +4,7 @@ const projects = [
     '02-AdvComponents',
     '03-ReactTimer',
     '04-DataFetching',
+    '05-ReduxShop',
 ]
 
 
