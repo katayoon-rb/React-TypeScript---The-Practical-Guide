@@ -26,7 +26,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-.container div {
+.container .project {
     width: 450px;
     background: #9FB1BC;
     padding: 30px 25px;
