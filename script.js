@@ -7,7 +7,7 @@ const projects = [
 
 for (let i = 0; i < projects.length; i++) {
     container.innerHTML += `
-        <div>
+        <div class="project">
             <img src=${'./' + projects[i] + '/screen.jpg'} />
             <h3>${projects[i].split('-')[1]} Project</h3>
             <div class="buttons">
