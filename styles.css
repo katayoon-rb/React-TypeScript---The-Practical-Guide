@@ -41,16 +41,20 @@ h2 {
         color: #2E5266;
         margin: 10px 0;
     }
-    .container button {
-        cursor: pointer;
-        width: 50%;
-        background: #2E5266;
-        border: none;
-        
-        padding: 10px 0;
-        margin: 0 10px 10px;
-
-        font-family: inherit;
-        font-size: 25px;
-        color: #9FB1BC;
+    .container .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
     }
+        .buttons button {
+            cursor: pointer;
+            width: 47%;
+            background: #2E5266;
+            border: none;
+            padding: 10px 0;
+    
+            font-family: inherit;
+            font-size: 25px;
+            color: #9FB1BC;
+        }
