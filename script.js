@@ -13,6 +13,9 @@ for (let i = 0; i < projects.length; i++) {
             <a href=${'./' + projects[i] + '/index.html'}>
                 <button>View Project</button>
             </a>
+            <a href=${'https://github.com/katayoon-rb/React-TypeScript-The-Practical-Guide/tree/main/' + projects[i]}>
+                <button>View Code</button>
+            </a>
         </div>
     `
 }
